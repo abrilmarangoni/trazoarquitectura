@@ -1,30 +1,96 @@
-# Fork of Trazo website design
+# TRAZO - Estudio de Arquitectura
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+Sitio web oficial del estudio de arquitectura TRAZO, especializado en diseño costero moderno en Mar del Plata, Argentina.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/marangoniiabril-9954s-projects/v0-fork-of-trazo-website-design)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/TuaKcLPro1N)
+## 🏗️ Características
 
-## Overview
+- **Diseño Responsivo**: Optimizado para todos los dispositivos
+- **Animaciones Suaves**: Efectos parallax y transiciones elegantes
+- **Formulario de Contacto**: Integración con EmailJS para consultas
+- **SEO Optimizado**: Metadatos y estructura optimizada para buscadores
+- **Performance**: Carga rápida y optimizada
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+## 🚀 Tecnologías
 
-## Deployment
+- **Next.js 14**: Framework de React con App Router
+- **TypeScript**: Tipado estático para mayor robustez
+- **Tailwind CSS**: Framework de CSS utilitario
+- **shadcn/ui**: Componentes de UI modernos
+- **EmailJS**: Servicio de envío de emails
+- **Lucide React**: Iconos modernos
 
-Your project is live at:
+## 📦 Instalación
 
-**[https://vercel.com/marangoniiabril-9954s-projects/v0-fork-of-trazo-website-design](https://vercel.com/marangoniiabril-9954s-projects/v0-fork-of-trazo-website-design)**
+1. Clona el repositorio:
+\`\`\`bash
+git clone https://github.com/tu-usuario/trazo-arquitectura.git
+cd trazo-arquitectura
+\`\`\`
 
-## Build your app
+2. Instala las dependencias:
+\`\`\`bash
+npm install
+\`\`\`
 
-Continue building your app on:
+3. Ejecuta el servidor de desarrollo:
+\`\`\`bash
+npm run dev
+\`\`\`
 
-**[https://v0.dev/chat/projects/TuaKcLPro1N](https://v0.dev/chat/projects/TuaKcLPro1N)**
+4. Abre [http://localhost:3000](http://localhost:3000) en tu navegador.
 
-## How It Works
+## 🎨 Paleta de Colores
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+- **Cream**: `#f3f2f3` - Color de fondo principal
+- **Warm Beige**: `#ded7cd` - Tonos cálidos
+- **Olive**: `#b4a66d` - Acentos dorados
+- **Teal**: `#3d555b` - Color principal de marca
+- **Charcoal**: `#212f35` - Textos y elementos oscuros
+
+## 📧 Configuración de EmailJS
+
+Para que el formulario de contacto funcione, necesitas configurar EmailJS:
+
+1. Crea una cuenta en [EmailJS](https://www.emailjs.com/)
+2. Configura un servicio de email (Gmail recomendado)
+3. Crea un template de email
+4. Actualiza las credenciales en `app/page.tsx`:
+   - `service_sfog3pq`: Tu Service ID
+   - `template_trazo_contact`: Tu Template ID
+   - `o6p6P2595DrqtDRWW`: Tu Public Key
+
+## 🚀 Despliegue
+
+El sitio está configurado para desplegarse automáticamente en Vercel:
+
+1. Conecta tu repositorio de GitHub con Vercel
+2. Las variables de entorno se configuran automáticamente
+3. Cada push a `main` despliega automáticamente
+
+## 📱 Secciones del Sitio
+
+- **Hero**: Presentación principal con parallax
+- **Estadísticas**: Números clave del estudio
+- **Sobre Nosotros**: Historia y filosofía del estudio
+- **Equipo**: Presentación de Agostina, Franco y Mateo
+- **Servicios**: Servicios ofrecidos por el estudio
+- **Proyectos**: Portfolio de trabajos destacados
+- **Contacto**: Formulario y información de contacto
+
+## 🎯 SEO y Performance
+
+- Metadatos optimizados para SEO
+- Imágenes optimizadas con Next.js Image
+- Lazy loading automático
+- Core Web Vitals optimizados
+- Sitemap automático
+
+## 📄 Licencia
+
+© 2024 TRAZO Arquitectura. Todos los derechos reservados.
+
+## 🤝 Contacto
+
+- **Email**: holatrazo@gmail.com
+- **Ubicación**: Mar del Plata, Buenos Aires, Argentina
+- **Website**: [trazo-arquitectura.vercel.app](https://trazo-arquitectura.vercel.app)
